@@ -1,0 +1,9 @@
+{
+    "name": "default",
+    "title": "My Sanity Studio",
+    "basePath": "/admin",
+    "projectId": "zux3kocp",
+    "dataset": "portfolioproject",
+    "studioHostname": "<your-hostname>.sanity.studio"
+  }
+  
