@@ -20,7 +20,6 @@ export default defineType({
             title: 'Technologies',
             type: 'array',
             of: [{ type: 'text' }],
-
         }),
         defineField({
             name: 'mainImage',
@@ -48,6 +47,15 @@ export default defineType({
             name: 'Gurl',
             title: 'Github URL',
             type: 'url',
+        }),
+        defineField({
+            name: 'slug',
+            title: 'Slug',
+            type: 'slug',
+            options: {
+                source: 'title', // The slug will be generated from the title field
+                maxLength: 96, // Optional: Set a maximum length for the slug
+            },
         }),
     ],
 });
